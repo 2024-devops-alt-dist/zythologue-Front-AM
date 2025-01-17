@@ -5,7 +5,7 @@
     
 
     function useBiere() {
-        const [filters, setFilters] = useState({ name: "", type: "", origin: "" });
+        const [filters, setFilters] = useState({ name: "", type: "", category: "" });
         const [selectedBeer, setSelectedBeer] = useState<Beers | null>(null);
         const [beers, setBeers] = useState<Beers[]>([]);
     
@@ -21,7 +21,7 @@
                         return (
                             (!filters.name || beer.name.toLowerCase().includes(filters.name.toLowerCase())) &&
                             (!filters.type || beer.type === filters.type) &&
-                            (!filters.origin || beer.origin.toLowerCase().includes(filters.origin.toLowerCase()))
+                            (!filters.category || beer.category.toLowerCase().includes(filters.category.toLowerCase()))
                         );
                     });
                     setBeers(filteredBeers); 

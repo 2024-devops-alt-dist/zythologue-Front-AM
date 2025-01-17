@@ -1,39 +1,32 @@
-import Button from '../components/Button';
+import Button from '../components/Button'
+import binouze from '../assets/binouze.jpg'
+import brasserie from '../assets/brasserie.jpg'
 
 
 const HomePage = () => {
         return (
-        <div
-            className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-6"
-            style={{
-            backgroundImage: "url('votre-image.jpg')", // Remplacez 'votre-image.jpg' par le chemin de votre image de fond
-            backgroundSize: 'cover', // Couvre tout l'espace
-            backgroundPosition: 'center', // Centrer l'image
-            }}
-        >
-            {/* Titre centré au niveau du bouton gauche */}
-            <div className="w-full max-w-4xl flex justify-start mb-8">
-            <h1 className="text-3xl font-bold text-amber-600 mx-12">
-                Découvrez notre liste de bières
-            </h1>
-            </div>
-    
-            <div className="flex w-full max-w-4xl">
-            {/* Bouton à gauche centré sur la moitié gauche */}
-            <div className="w-1/2 flex justify-center mr-4">
+            <div className="min-h-screen flex flex-col">
+            {/* Section 1 : Image de fond + Titre + Bouton */}
+            <div className="w-full h-screen bg-cover bg-center flex flex-col items-center justify-center" 
+                style={{ backgroundImage: `url(${binouze})` }} // Remplacez 'biere.jpg' par le chemin de votre image
+            >
+                <h1 className="text-4xl font-bold text-white mb-8 shadow-lg text-center">
+                    Découvrez notre liste de bières
+                </h1>
                 <Button text="Cliquez ici" to="/PageBiere" />
             </div>
-    
-            {/* Ajout d'un h2 au-dessus du second bouton */}
-            <div className="w-1/2 flex flex-col items-center justify-center ml-4">
-                <h2 className="text-2xl font-semibold text-amber-600 mb-4">
-                Explorez nos autres pages
-                </h2>
+
+            {/* Section 2 : Image de fond + Titre + Bouton */}
+            <div className="w-full h-screen bg-cover bg-center flex flex-col items-center justify-center" 
+                style={{ backgroundImage: `url(${brasserie})`}} // Remplacez 'brasserie.jpg' par le chemin de votre image
+            >
+                <h1 className="text-4xl font-bold text-white mb-8 shadow-lg text-center">
+                    Explorez nos brasseries
+                </h1>
                 <Button text="Cliquez ici" to="/PageBrasserie" />
             </div>
-            </div>
         </div>
-        );
-    };
-    
-    export default HomePage;
+    );
+};
+
+export default HomePage;

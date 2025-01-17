@@ -12,18 +12,6 @@
     const App = () => {
         const { beers, selectedBeer, setSelectedBeer, handleFilterChange } = useBiere();
         const data = [
-            {
-                name: "Watou", "type": "triple"
-            
-            },
-            {
-                name: "kouy", "type": "triple"
-            
-            },
-            {
-                name: "blonde", "type": "triple"
-            
-            }
         ];
         return (
             <div className="min-h-screen bg-amber-50 p-6">

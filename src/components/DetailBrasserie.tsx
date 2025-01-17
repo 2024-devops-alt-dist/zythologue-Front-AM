@@ -22,7 +22,7 @@ import { useParams } from "react-router-dom";
             >
                 <p className="text-lg font-medium">{beer.name}</p>
                 <p className="text-sm text-gray-600">
-                Type : {beer.type} | Alcool : {beer.alcohol}
+                Type : {beer.type} | Alcool : {beer.abv}
                 </p>
             </li>
             ))}

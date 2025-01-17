@@ -8,29 +8,29 @@
                 <div className="text-center md:text-left mb-6 md:mb-0">
                 <h1 className="text-2xl font-bold">Watou</h1>
                 <p className="text-gray-400 text-sm mt-2">
-                    La bière comme vous l'aimez
+                    Watou un jour, Watoujours
                 </p>
                 </div>
     
                 {/* Liens de navigation */}
                 <div className="flex space-x-4 mb-6 md:mb-0">
-                <a href="#" className="text-gray-400 hover:text-white transition">
+                <a href="#" className="text-gray-400 hover:text-[#c88e1b] transition">
                     Accueil
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition">
+                <a href="#" className="text-gray-400 hover:text-[#c88e1b] transition">
                     Services
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition">
+                <a href="#" className="text-gray-400 hover:text-[#c88e1b] transition">
                     Contact
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition">
+                <a href="#" className="text-gray-400 hover:text-[#c88e1b] transition">
                     À propos
                 </a>
                 </div>
     
                 {/* Icônes sociales */}
                 <div className="flex space-x-4">
-                <a href="#" className="text-gray-400 hover:text-white transition">
+                <a href="#" className="text-gray-400 hover:text-[#c88e1b] transition">
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-6 w-6"
@@ -40,7 +40,7 @@
                     <path d="M18 2h-3c-1.657 0-3 1.343-3 3v3H9v4h3v8h4v-8h3l1-4h-4V5c0-.553.447-1 1-1h3V2z" />
                     </svg>
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition">
+                <a href="#" className="text-gray-400 hover:text-[#c88e1b] transition">
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-6 w-6"
@@ -50,7 +50,7 @@
                     <path d="M22.23 5.924c-.77.35-1.6.585-2.47.692a4.301 4.301 0 001.88-2.37 8.596 8.596 0 01-2.73 1.047 4.28 4.28 0 00-7.29 3.901A12.14 12.14 0 013.11 4.604a4.27 4.27 0 001.32 5.7 4.21 4.21 0 01-1.94-.535v.054a4.28 4.28 0 003.44 4.2 4.25 4.25 0 01-1.93.073 4.28 4.28 0 004 2.97 8.591 8.591 0 01-5.32 1.83c-.35 0-.69-.02-1.03-.06a12.12 12.12 0 006.56 1.92c7.87 0 12.18-6.52 12.18-12.17 0-.18 0-.35-.01-.53a8.71 8.71 0 002.15-2.22z" />
                     </svg>
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition">
+                <a href="#" className="text-gray-400 hover:text-[#c88e1b] transition">
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-6 w-6"

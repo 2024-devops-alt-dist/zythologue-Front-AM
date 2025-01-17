@@ -24,10 +24,10 @@
             </select>
             <input
             type="text"
-            placeholder="Filter by origin"
+            placeholder="Filter by category"
             className="p-2 border rounded"
             value={filters.origin}
-            onChange={(e) => onFilterChange("origin", e.target.value)}
+            onChange={(e) => onFilterChange("category", e.target.value)}
             />
         </div>
         </div>

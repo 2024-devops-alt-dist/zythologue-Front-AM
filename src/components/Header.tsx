@@ -20,7 +20,7 @@ const Header = () => {
                 <li>
                     <a
                     href="#"
-                    className="text-gray-400 hover:text-white transition"
+                    className="text-gray-400 hover:text-[#c88e1b] transition"
                     >
                     Accueil
                     </a>
@@ -28,23 +28,23 @@ const Header = () => {
                 <li>
                     <a
                     href="#"
-                    className="text-gray-400 hover:text-white transition"
+                    className="text-gray-400 hover:text-[#c88e1b] transition"
                     >
-                    Services
+                    Bières
                     </a>
                 </li>
                 <li>
                     <a
                     href="#"
-                    className="text-gray-400 hover:text-white transition"
+                    className="text-gray-400 hover:text-[#c88e1b] transition"
                     >
-                    À propos
+                    Brasseries
                     </a>
                 </li>
                 <li>
                     <a
                     href="#"
-                    className="text-gray-400 hover:text-white transition"
+                    className="text-gray-400 hover:text-[#c88e1b] transition"
                     >
                     Contact
                     </a>
@@ -54,7 +54,7 @@ const Header = () => {
     
             {/* Bouton mobile (burger menu) */}
             <div className="md:hidden">
-                <button className="text-gray-400 hover:text-white transition">
+                <button className="text-gray-400 hover:text-[#c88e1b] transition">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-6 w-6"

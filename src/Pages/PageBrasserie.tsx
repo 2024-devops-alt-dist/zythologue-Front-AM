@@ -29,7 +29,6 @@ import DetailBrasserie from "../components/DetailBrasserie";
 
     return (
         <div>
-    <h1>Watou</h1>
     <ListeBrasserie brasseries={brasseries} />
         </div>
     )
