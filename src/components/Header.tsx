@@ -1,10 +1,10 @@
 import Logo from '../assets/watou.png'
+import {Link } from "react-router";
 
 const Header = () => {
         return (
         <header className="bg-gray-900 text-white py-4 shadow-md">
             <div className="container mx-auto px-4 flex justify-between items-center">
-            {/* Logo */}
             <div className="flex items-center gap-3">
                 <img
                 src={Logo} 
@@ -14,32 +14,31 @@ const Header = () => {
                 <h1 className="text-xl font-bold">Watou</h1>
             </div>
     
-            {/* Navigation */}
             <nav>
                 <ul className="hidden md:flex space-x-6">
                 <li>
-                    <a
-                    href="#"
+                    <Link
+                    to = "/"
                     className="text-gray-400 hover:text-[#c88e1b] transition"
                     >
                     Accueil
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a
-                    href="#"
+                    <Link
+                    to = "/PageBiere"
                     className="text-gray-400 hover:text-[#c88e1b] transition"
                     >
                     Bières
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a
-                    href="#"
+                    <Link
+                    to = "/PageBrasserie"
                     className="text-gray-400 hover:text-[#c88e1b] transition"
                     >
                     Brasseries
-                    </a>
+                    </Link>
                 </li>
                 <li>
                     <a
@@ -52,7 +51,6 @@ const Header = () => {
                 </ul>
             </nav>
     
-            {/* Bouton mobile (burger menu) */}
             <div className="md:hidden">
                 <button className="text-gray-400 hover:text-[#c88e1b] transition">
                 <svg

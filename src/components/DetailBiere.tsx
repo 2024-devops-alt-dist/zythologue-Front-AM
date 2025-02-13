@@ -15,6 +15,8 @@
         <p className="text-gray-600 text-lg">{beer.type}</p>
         <p className="text-gray-500">Category: {beer.category}</p>
         <p className="text-gray-700 mt-4">{beer.description}</p>
+        <p className="text-gray-700 mt-4">{beer.abv} %</p>
+        <p className="text-gray-700 mt-4">Prix: {beer.price} €</p>
         </div>
     );
     }
